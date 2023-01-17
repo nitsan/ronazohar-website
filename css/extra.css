@@ -1,0 +1,20 @@
+.heb {
+  direction: rtl;
+}
+.fright {
+  float: right;
+}
+
+.talign-right {
+  text-align: right;
+}
+
+.navbar-icons {
+  font-size: 16px
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-icons {
+    font-size: 20px
+  }
+}
