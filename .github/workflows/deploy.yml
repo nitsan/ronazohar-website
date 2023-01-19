@@ -18,6 +18,6 @@ jobs:
           username: u582912709
           password: ${{ secrets.FTP_PASSWORD }}
           exclude: |
-            **/.git**
+            **/.git/**
             **/.github/**
           server-dir: ./
