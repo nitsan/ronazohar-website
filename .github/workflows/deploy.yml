@@ -20,4 +20,4 @@ jobs:
           exclude: |
             **/.git**
             **/.github/**
-          server-dir: public_html/
+          server-dir: ./
