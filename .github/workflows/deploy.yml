@@ -14,7 +14,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          server: 141.136.43.95
+          server: ronazohar.co.il
           username: u582912709
           password: ${{ secrets.FTP_PASSWORD }}
           exclude: |
